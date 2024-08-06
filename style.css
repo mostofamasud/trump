@@ -1,0 +1,117 @@
+body{
+    font-family: "DM Sans" !important;
+    width: 100%;
+    height: 110vh;
+    background: url(/images/background.png) lightgray 50% / cover no-repeat;
+    
+}
+img{
+    border-radius: 20px !important;
+}
+.header-bg-color{
+    background-color: #08090C;
+}
+a.nav-link{
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 16.8px */
+padding: 10px 0;
+transition: all .2s;
+
+}
+a.nav-link:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.cursor{
+    transition: all .5s;
+}
+.cursor:hover{
+    cursor: pointer;
+}
+.banner-left-img{
+    border-radius: 24px;
+}
+
+.banner-right-title{
+color: #FFF;
+font-family: Prompt;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 124%; /* 44.64px */
+}
+.banner-right-text{
+    color: #FFF;
+font-family: "DM Sans";
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.col-lg-6.py-5.mt-4.text-white {
+    padding-left:53px;
+}
+
+.carousel-background{
+    background-color: #ffffff18;
+    padding: 17px;
+    border-radius: 20px;
+}
+.hover-effect-1, .hover-effect-2, .hover-effect-3, .hover-effect-4, .hover-effect-5, .hover-effect-6{
+    transition: all 1s;
+
+}
+.hover-effect-1:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+.hover-effect-2:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+.hover-effect-3:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+.hover-effect-4:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+.hover-effect-5:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+.hover-effect-6:hover{
+    transform: scaleY(1.1);
+    margin-top: -40px;
+}
+
+
+.footer{
+    background-color: #08090C;
+}
+.footer p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+
+}
+.footer-menu a{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-left: 2px solid #fff;
+    margin-left: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #fff;
+
+}
